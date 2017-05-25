@@ -9,26 +9,7 @@
 <div>
     <h4>Change your account settings</h4>
     <hr />
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Email)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.UserName)
-        </th>
-    </tr>
-    @foreach (var item in Model)
-    {
-        <tr>
-
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UserName)
-            </td>
-        </tr>
-    }
+    
     <dl class="dl-horizontal">
         <dt>Password:</dt>
         <dd>

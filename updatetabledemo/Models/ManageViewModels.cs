@@ -7,6 +7,8 @@ namespace updatetabledemo.Models
 {
     public class IndexViewModel
     {
+        internal bool hasusername;
+
         public bool HasPassword { get; set; }
         public IList<UserLoginInfo> Logins { get; set; }
         public string PhoneNumber { get; set; }

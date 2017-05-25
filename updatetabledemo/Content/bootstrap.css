@@ -33,6 +33,7 @@ main,
 nav,
 section,
 summary {
+
   display: block;
 }
 
@@ -4052,6 +4053,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar {
+
     border-radius: 4px;
   }
 }
@@ -4070,6 +4072,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-header:after {
   display: table;
   content: " ";
+
 }
 
 .navbar-header:after {
@@ -4144,16 +4147,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .container > .navbar-header,
 .container > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 @media (min-width: 768px) {
-  .container > .navbar-header,
-  .container > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
-  }
+    .container > .navbar-header,
+    .container > .navbar-collapse {
+        margin-right: 0;
+        margin-left: 0;
+        color: white;
+    }
 }
 
 .navbar-static-top {
@@ -4201,6 +4205,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
+
 }
 
 @media (min-width: 768px) {
