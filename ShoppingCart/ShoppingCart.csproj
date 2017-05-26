@@ -210,6 +210,7 @@
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AspNetUsersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\tblItemDetailsController.cs" />
@@ -249,6 +250,12 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\1487896997.png" />
+    <Content Include="Content\images\REIWA-property.jpg" />
+    <Content Include="Content\images\sale-banner-category.jpg" />
+    <Content Include="Content\images\Sale-Free-PNG-Image.png" />
+    <Content Include="Content\images\SALE.jpg" />
+    <Content Include="Content\images\satisfaction.gif" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -327,6 +334,11 @@
     <Content Include="Views\tblItemDetails\Edit.cshtml" />
     <Content Include="Views\tblItemDetails\Index.cshtml" />
     <Content Include="Views\tblItemDetails\Search.cshtml" />
+    <Content Include="Views\AspNetUsers\Create.cshtml" />
+    <Content Include="Views\AspNetUsers\Delete.cshtml" />
+    <Content Include="Views\AspNetUsers\Details.cshtml" />
+    <Content Include="Views\AspNetUsers\Edit.cshtml" />
+    <Content Include="Views\AspNetUsers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
